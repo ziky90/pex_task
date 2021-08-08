@@ -74,5 +74,5 @@ NOTE: model is stored using git lfs, for getting started with `git lfs` please s
 
 ## Future work
 
-1. I believe that paying more attention to the training data would probably significantly improve the model accuracy. There can possibly be deployed some manual filters to images that are corrupted and this can possibly be combined with manual filtering. Manual filtering can be simplified by active-learning approach.
-2. There should be performed more experiments with various ML models. Trade-off between the accuracy and inference time should be considered. 
+1. I believe that paying more attention to the training data would significantly improve the model accuracy. There can possibly be deployed some manual filters to images that are corrupted and this can possibly be combined with manual filtering. Manual filtering here could possibly be simplified by active-learning approach. In general there should be invested to the improvement of the dataset first, both to the training and test dataset.
+2. There should be performed more experiments with various ML models. Trade-off between the accuracy and inference time should be considered. In generasl models like FBnet should help in both speed and inference time in comparison to the mobilenet. 
