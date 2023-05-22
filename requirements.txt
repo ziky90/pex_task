@@ -1,4 +1,4 @@
-requests==2.23.0
+requests==2.31.0
 pytube3==9.6.4
 opencv-python==4.2.0.32
 tensorflow==2.1.0
